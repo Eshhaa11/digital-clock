@@ -1,19 +1,18 @@
-import { useState, useEffect } from "react";
-import './Clock.css'
+import React, { useState, useEffect } from 'react';
 
-function Clock () {
-    const [time, setTime] = useState("00:00:00")
-        useEffect(() => {
-         const interval = setInterval(() => {
-            const now = new Date();
-            setTime(now.toLocaleTimeString());
-         }, 1000);
+function Clock() { 
+  const [time, setTime] = useState("00:00:00");
 
-         return () => clearInterval(interval);
-      }, []);
+  useEffect(() => { 
+    const interval = setInterval(() => { 
+      const now = new Date(); 
+      setTime(now.toLocaleTimeString()); 
+    }, 1000);
 
-        return 
-         <h1>DIGITAL CLOCK</h1>
-         <h2>{time}</h2>
-     )
+    return () => clearInterval(interval);
+  }, []); 
+
+  return <h1>{time}</h1>; 
 }
+
+export default Clock;
