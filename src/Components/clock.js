@@ -6,7 +6,8 @@ function Clock () {
      return (
         useEffect(() => {
          const interval = setInterval(() => {
-            const
+            const now = new Date();
+         
             
          }, interval);
         })
