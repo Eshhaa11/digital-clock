@@ -24,3 +24,10 @@ To see it in action, clone the repository and follow the setup instructions belo
    git clone https://github.com/Eshhaa11/digital-clock
 
 2. **Navigate to the project directory:**
+ 
+   cd digital-clock
+
+3. **Install dependencies:**
+
+   npm install
+
