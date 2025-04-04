@@ -7,6 +7,8 @@ function Clock () {
         useEffect(() => {
          const interval = setInterval(() => {
             const now = new Date();
+            setTime(now.toLocaleTimeString());
+         }, 1000);
          
             
          }, interval);
