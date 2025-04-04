@@ -13,6 +13,7 @@ h1 {
 }
 
 h2 {
+    text-align: center;
     background-color: #800000;
     color: white;
     font-size: 35px;
