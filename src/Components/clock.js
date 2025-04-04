@@ -13,7 +13,14 @@ function Clock() {
     return () => clearInterval(interval);
   }, []);
 
-  return <h1> DIGITAL CLOCK</h1>;
+  return (
+    <div>
+    <h1> DIGITAL CLOCK</h1>; 
+    <h2>{time}</h2>
+    </div>
+
+
+  )  
 }
 
 export default Clock;
