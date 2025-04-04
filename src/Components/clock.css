@@ -4,10 +4,12 @@
 }
 
 h1 {
+    text-align: center;
     color: aliceblue;
     font-family: 'Verdana';
     font-weight: bold;
     font-size: 28px;
+    
 }
 
 h2 {
