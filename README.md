@@ -1,3 +1,5 @@
+![App Screenshot](src/assets/digital.jpg)
+
 # 🕰️ Digital Clock (React)
 
 A simple React application that displays the current time in a digital clock format, updating in real-time. This beginner-friendly project demonstrates the use of **React Hooks (`useState`, `useEffect`)**.
